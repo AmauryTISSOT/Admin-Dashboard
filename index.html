@@ -1,162 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Admin Dashboard</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="sidebar">
-        <h1 class="dashboard"><img src="/icons/view-dashboard.png" alt="dashboard icon"> Dashboard</h1>
-        <ul class="side-menu">
-            <li><a href="#"><img src="/icons/home.png" alt="home icon"> Home</li></a>
-            <li><a href="#"><img src="/icons/account-box-outline.png" alt="profile icon"> Profile</li></a>
-            <li><a href="#"><img src="/icons/message-reply-outline.png" alt="messages icon"> Messages</li></a>
-            <li><a href="#"><img src="/icons/history.png" alt="history icon"> History</li></a>
-            <li><a href="#"><img src="/icons/calendar-check.png" alt="tasks icon"> Tasks</li></a>
-            <li><a href="#"><img src="/icons/account-group.png" alt="community icon"> Communities</li></a>
-        </ul>
-        <ul class="side-menu">
-            <li><a href="#"><img src="/icons/cog-outline.png" alt="settings icon"> Settings</li></a>
-            <li><a href="#"><img src="/icons/file-question-outline.png" alt="support icon"> Support</li></a>
-            <li><a href="#"><img src="/icons/shield-check-outline.png" alt="privacy icon"> Privacy</li></a>
-        </ul>
+      <h1 class="dashboard">
+        <img src="/icons/view-dashboard.png" alt="dashboard icon" /> Dashboard
+      </h1>
+      <ul class="side-menu">
+        <li>
+          <a href="#"><img src="/icons/home.png" alt="home icon" /> Home</a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/icons/account-box-outline.png" alt="profile icon" />
+            Profile</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/icons/message-reply-outline.png" alt="messages icon" />
+            Messages</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/icons/history.png" alt="history icon" /> History</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/icons/calendar-check.png" alt="tasks icon" /> Tasks</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/icons/account-group.png" alt="community icon" />
+            Communities</a
+          >
+        </li>
+      </ul>
+      <ul class="side-menu">
+        <li>
+          <a href="#"
+            ><img src="/icons/cog-outline.png" alt="settings icon" />
+            Settings</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/icons/file-question-outline.png" alt="support icon" />
+            Support</a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><img src="/icons/shield-check-outline.png" alt="privacy icon" />
+            Privacy</a
+          >
+        </li>
+      </ul>
     </div>
 
     <div class="header">
-        <div class="top-header">
-            <div>
-                <div class="icon"><img src="/icons/magnify.png" alt="search icon"></div>
-                <input type="text" placeholder=" Search...">
-            </div>
-            <div>
-                <div class="icon"><img src="/icons/bell-ring.png" alt="bell icon"></div>
-                <div id="logo-top-header"><img src="/profileIcon/profileincon1.png" alt="user profile icon"></div>
-                <p class="header-user">Morgan Oakley</p>
-            </div>
+      <div class="top-header">
+        <div>
+          <div class="icon">
+            <img src="/icons/magnify.png" alt="search icon" />
+          </div>
+          <input type="text" placeholder=" Search..." />
         </div>
-        <div class="bottom-header">
-            <div class="right-bottom-header">
-                <div class="logo-header"><img src="/profileIcon/profileincon1.png" alt="user profile icon"></div>
-                <div>
-                    <p class="hi-there">Hi there,</p>
-                    <div class="header-user">Morgan Oakley (@morgan)</div>
-                </div>
-            </div>
-            <div class="button-header">
-                <button >New</button>
-                <button >Upload</button>
-                <button >Share</button>
-            </div>
+        <div>
+          <div class="icon" id="bell-icon">
+            <img src="/icons/bell-ring.png" alt="bell icon" />
+          </div>
+          <div id="logo-top-header">
+            <img src="/profileIcon/profileincon1.png" alt="user profile icon" />
+          </div>
+          <p class="header-user">Morgan Oakley</p>
         </div>
-
+      </div>
+      <div class="bottom-header">
+        <div class="right-bottom-header">
+          <div class="logo-header">
+            <img src="/profileIcon/profileincon1.png" alt="user profile icon" />
+          </div>
+          <div>
+            <p class="hi-there">Hi there,</p>
+            <div class="header-user">Morgan Oakley (@morgan)</div>
+          </div>
+        </div>
+        <div class="button-header">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
     </div>
     <div class="main-container">
-        <div class="projects">
-            <div>
-                <h3>Super Cool Project</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsam consequatur quae dicta saepe molestiae magni, alias mollitia. Placeat blanditiis sapiente nostrum eum suscipit veniam fugit rem? Consectetur amet dicta rerum atque reprehenderit velit, necessitatibus a minima provident, suscipit mollitia.</p>
-                <div class="projects-icon">
-                    <img src="/icons/star-plus-outline.png" alt="add favorite icon">
-                    <img src="/icons/eye-plus.png" alt="see icon">
-                    <img src="/icons/source-branch.png" alt="branch icon">
-                </div>
-            </div>
-            <div>
-                <h3>Less Cool Project</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, explicabo deleniti laboriosam illum quas vitae provident pariatur modi eius ab velit, beatae accusantium nesciunt amet. Nostrum nemo recusandae iure quisquam.
-                <div class="projects-icon">
-                    <img src="/icons/star-plus-outline.png" alt="add favorite icon">
-                    <img src="/icons/eye-plus.png" alt="see icon">
-                    <img src="/icons/source-branch.png" alt="branch icon">
-                </div>
-            </div>
-            <div>
-                <h3>Impossible App</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Equaerat, explicabo eligendi earum mollitia beatae? Expedita numquam maiores fugit architecto distinctio.</p>
-                <div class="projects-icon">
-                    <img src="/icons/star-plus-outline.png" alt="add favorite icon">
-                    <img src="/icons/eye-plus.png" alt="see icon">
-                    <img src="/icons/source-branch.png" alt="branch icon">
-                </div>
-            </div>
-            <div>
-                <h3>Easy Peasy App</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quam deleniti ratione harum magnam beatae blanditiis quibusdam, voluptatem id quia iste non animi esse cum odit explicabo perspiciatis minima expedita?</p>
-                <div class="projects-icon">
-                    <img src="/icons/star-plus-outline.png" alt="add favorite icon">
-                    <img src="/icons/eye-plus.png" alt="see icon">
-                    <img src="/icons/source-branch.png" alt="branch icon">
-                </div>
-            </div>
-            <div>
-                <h3>Ad Blocker</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, quae! Alias hic labore voluptas sint inventore aliquid? Dolor, sequi ut alias et dolore, eum eaque illum modi voluptas iusto praesentium.</p>
-                <div class="projects-icon">
-                    <img src="/icons/star-plus-outline.png" alt="add favorite icon">
-                    <img src="/icons/eye-plus.png" alt="see icon">
-                    <img src="/icons/source-branch.png" alt="branch icon">
-                </div>
-            </div>
-            <div>
-                <h3>Money Maker</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid saepe, voluptates commodi architecto, maxime ipsam numquam dolor tempore a sapiente possimus! Cum sunt veniam dicta! Id sunt expedita aperiam fugit.</p>
-                <div class="projects-icon">
-                    <img src="/icons/star-plus-outline.png" alt="add favorite icon">
-                    <img src="/icons/eye-plus.png" alt="see icon">
-                    <img src="/icons/source-branch.png" alt="branch icon">
-                </div>
-            </div>
+      <div class="projects">
+        <div>
+          <h3>Super Cool Project</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            ipsam consequatur quae dicta saepe molestiae magni, alias mollitia.
+            Placeat blanditiis sapiente nostrum eum suscipit veniam fugit rem?
+            Consectetur amet dicta rerum atque reprehenderit velit,
+            necessitatibus a minima provident, suscipit mollitia.
+          </p>
+          <div class="projects-icon">
+            <img src="/icons/star-plus-outline.png" alt="add favorite icon" />
+            <img src="/icons/eye-plus.png" alt="see icon" />
+            <img src="/icons/source-branch.png" alt="branch icon" />
+          </div>
         </div>
-        <div class="right-container">
-            <h2 class="title">Announcements</h2>
-            <div class="announcements">
-                <div class="div1">
-                    <h4>Site Maintenance</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quisquam consequue.</p>
-                </div>
-                <div class="div2">
-                    <h4>Community Share Day</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Liquid minima quae distinctio adipisci? Laudantium reiciendis quibusdam doloribus, dolorum a recusandae.</p>
-                </div>
-                <div class="div3">
-                    <h4>Updated Privacy Policy</h4>
-                    <p>Aliquid saepe, voluptates commodi architecto.</p>
-                </div>
-            </div>
-            <h2 class="title">Trending</h2>
-            <div class="trending">
-                
-                    <div class="trending-profile-picture"><img src="/profileIcon/profileCat.png" alt="tegan profile image"></div>
-                    <div class="trending-name">
-                        <h6>@tegan</h6>
-                        <p>World Peace Builder</p>
-                    </div>
-            
-                    <div class="trending-profile-picture"><img src="/profileIcon/profileincon1.png" alt="morgan profile image"></div>
-                    <div class="trending-name">
-                        <h6>@morgan</h6>
-                        <p>Super Cool Project</p>
-                    </div>
-                
-                    <div class="trending-profile-picture"><img src="/profileIcon/profileDog.png" alt="kendal profile image"></div>
-                    <div class="trending-name">
-                        <h6>@kendall</h6>
-                        <p>Life Changing App</p>
-                    </div>
-                
-                    <div class="trending-profile-picture"><img src="/profileIcon/profileicon2.png" alt="alex profile image"></div>
-                    <div class="trending-name">
-                        <h6>@alex</h6>
-                        <p>No Traffic Maker</p>
-                    </div>
-               
-            </div>
+        <div>
+          <h3>Less Cool Project</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repudiandae, explicabo deleniti laboriosam illum quas vitae
+            provident pariatur modi eius ab velit, beatae accusantium nesciunt
+            amet. Nostrum nemo recusandae iure quisquam.
+          </p>
+          <div class="projects-icon">
+            <img src="/icons/star-plus-outline.png" alt="add favorite icon" />
+            <img src="/icons/eye-plus.png" alt="see icon" />
+            <img src="/icons/source-branch.png" alt="branch icon" />
+          </div>
         </div>
-    </div>
+        <div>
+          <h3>Impossible App</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Equaerat,
+            explicabo eligendi earum mollitia beatae? Expedita numquam maiores
+            fugit architecto distinctio.
+          </p>
+          <div class="projects-icon">
+            <img src="/icons/star-plus-outline.png" alt="add favorite icon" />
+            <img src="/icons/eye-plus.png" alt="see icon" />
+            <img src="/icons/source-branch.png" alt="branch icon" />
+          </div>
+        </div>
+        <div>
+          <h3>Easy Peasy App</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+            quam deleniti ratione harum magnam beatae blanditiis quibusdam,
+            voluptatem id quia iste non animi esse cum odit explicabo
+            perspiciatis minima expedita?
+          </p>
+          <div class="projects-icon">
+            <img src="/icons/star-plus-outline.png" alt="add favorite icon" />
+            <img src="/icons/eye-plus.png" alt="see icon" />
+            <img src="/icons/source-branch.png" alt="branch icon" />
+          </div>
+        </div>
+        <div>
+          <h3>Ad Blocker</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+            quae! Alias hic labore voluptas sint inventore aliquid? Dolor, sequi
+            ut alias et dolore, eum eaque illum modi voluptas iusto praesentium.
+          </p>
+          <div class="projects-icon">
+            <img src="/icons/star-plus-outline.png" alt="add favorite icon" />
+            <img src="/icons/eye-plus.png" alt="see icon" />
+            <img src="/icons/source-branch.png" alt="branch icon" />
+          </div>
+        </div>
+        <div>
+          <h3>Money Maker</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            saepe, voluptates commodi architecto, maxime ipsam numquam dolor
+            tempore a sapiente possimus! Cum sunt veniam dicta! Id sunt expedita
+            aperiam fugit.
+          </p>
+          <div class="projects-icon">
+            <img src="/icons/star-plus-outline.png" alt="add favorite icon" />
+            <img src="/icons/eye-plus.png" alt="see icon" />
+            <img src="/icons/source-branch.png" alt="branch icon" />
+          </div>
+        </div>
+      </div>
+      <div class="right-container">
+        <h2 class="title">Announcements</h2>
+        <div class="announcements">
+          <div class="div1">
+            <h4>Site Maintenance</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+              quisquam consequue.
+            </p>
+          </div>
+          <div class="div2">
+            <h4>Community Share Day</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Liquid
+              minima quae distinctio adipisci? Laudantium reiciendis quibusdam
+              doloribus, dolorum a recusandae.
+            </p>
+          </div>
+          <div class="div3">
+            <h4>Updated Privacy Policy</h4>
+            <p>Aliquid saepe, voluptates commodi architecto.</p>
+          </div>
+        </div>
+        <h2 class="title">Trending</h2>
+        <div class="trending">
+          <div class="trending-profile-picture">
+            <img src="/profileIcon/profileCat.png" alt="tegan profile image" />
+          </div>
+          <div class="trending-name">
+            <h6>@tegan</h6>
+            <p>World Peace Builder</p>
+          </div>
 
-</body>
+          <div class="trending-profile-picture">
+            <img
+              src="/profileIcon/profileincon1.png"
+              alt="morgan profile image"
+            />
+          </div>
+          <div class="trending-name">
+            <h6>@morgan</h6>
+            <p>Super Cool Project</p>
+          </div>
+
+          <div class="trending-profile-picture">
+            <img src="/profileIcon/profileDog.png" alt="kendal profile image" />
+          </div>
+          <div class="trending-name">
+            <h6>@kendall</h6>
+            <p>Life Changing App</p>
+          </div>
+
+          <div class="trending-profile-picture">
+            <img src="/profileIcon/profileicon2.png" alt="alex profile image" />
+          </div>
+          <div class="trending-name">
+            <h6>@alex</h6>
+            <p>No Traffic Maker</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
