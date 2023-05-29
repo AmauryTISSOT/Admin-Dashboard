@@ -1,4 +1,11 @@
 # Admin-Dashboard
+## Admin-Dashboard integration using HTML & CSS
+What I learned during this project:
+* CSS selector
+* CSS grid
 
-- 2 mains columns
-- 2 mains rows 
+----
+## Intégration d'un "Admin-Dashboard" en utilisant HTML & CSS
+Ce que j'ai appris durant ce projet:
+- Les selector CSS
+- Le grid CSS
